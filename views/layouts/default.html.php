@@ -40,7 +40,7 @@
 
 		<hr>
 
-		<div class="content">
+		<div class="content">FALSZBJI.BIZ
 			<?php echo $this->content(); ?>
 		</div>
 
