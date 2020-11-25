@@ -1,55 +1,33 @@
-<?php
-/**
- * li₃: the most RAD framework for PHP (http://li3.me)
- *
- * Copyright 2009, Union of RAD. All rights reserved. This source
- * code is distributed under the terms of the BSD 3-Clause License.
- * The full license text can be found in the LICENSE.txt file.
- */
-?>
-<!doctype html>
-<html>
-<head>
-	<?php echo $this->html->charset();?>
-	<title>Application &gt; <?php echo $this->title(); ?></title>
-	<?php echo $this->html->style(['bootstrap.min', 'lithified']); ?>
-	<?php echo $this->scripts(); ?>
-	<?php echo $this->styles(); ?>
-	<?php echo $this->html->link('Icon', null, ['type' => 'icon']); ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html><head>
+  <title>FalSabji.biz</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+          body {
+                  background-color: #eceff1;
+                  color: #000;
+                  font-size: 0.9em;
+                  font-family: sans-serif,helvetica;
+                  margin: 0;
+                  padding: 0;
+          }
+          h1 {
+                  text-align: center;
+                  margin: 0;
+                  padding: 0.6em 2em 0.4em;
+                  background-color: #2D4760;
+                  color: #ffffff;
+                  font-weight: normal;
+                  font-size: 1.75em;
+                  border-bottom: 2px solid #000;
+          }
+          h1 strong {
+                  font-weight: bold;
+          }
+  </style>
 </head>
-<body class="lithified">
-	<div class="container-narrow">
 
-		<div class="masthead">
-			<ul class="nav nav-pills pull-right">
-				<li>
-					<a href="http://li3.me/docs/book/manual/1.x/quickstart">Quickstart</a>
-				</li>
-				<li>
-					<a href="http://li3.me/docs/book/manual/1.x/">Manual</a>
-				</li>
-				<li>
-					<a href="http://li3.me/docs/api/lithium/1.2.x/lithium">API</a>
-				</li>
-				<li>
-					<a href="http://li3.me/">More</a>
-				</li>
-			</ul>
-			<a href="http://li3.me/"><h3>&#10177;</h3></a>
-		</div>
+<body>
+<h1>FalSabji<small>.biz</small></h1>
+</body></html>
 
-		<hr>
-
-		<div class="content">FALSZBJI.BIZ
-			<?php echo $this->content(); ?>
-		</div>
-
-		<hr>
-
-		<div class="footer">
-			<p>&copy; Union Of RAD <?php echo date('Y') ?></p>
-		</div>
-
-	</div>
-</body>
-</html>
