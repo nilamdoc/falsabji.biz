@@ -20,6 +20,7 @@
                   font-weight: normal;
                   font-size: 1.75em;
                   border-bottom: 2px solid #000;
+                  letter-spacing: 2px;
           }
           h1 strong {
                   font-weight: bold;
